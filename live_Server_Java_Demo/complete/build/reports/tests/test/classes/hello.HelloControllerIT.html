@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class hello.HelloControllerIT</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class hello.HelloControllerIT</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/hello.html">hello</a> &gt; HelloControllerIT</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.039s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">getHello</td>
+<td>1.039s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>19:28:23.221 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.HelloControllerIT]
+19:28:23.230 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:28:23.239 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:28:23.262 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.HelloControllerIT] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:28:23.276 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.HelloControllerIT], using SpringBootContextLoader
+19:28:23.279 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerIT-context.xml] does not exist
+19:28:23.280 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerITContext.groovy] does not exist
+19:28:23.280 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.HelloControllerIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:28:23.281 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.HelloControllerIT]: HelloControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:28:23.578 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.HelloControllerIT]
+19:28:23.585 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+19:28:23.586 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+19:28:23.586 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [MapPropertySource@1774846269 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=E:\Java JDK\jdk\jre\bin, java.vm.version=25.241-b07, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, sun.java.launcher=SUN_STANDARD, user.country=CN, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete, java.runtime.version=1.8.0_241-b07, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=E:\Java JDK\jdk\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\youme\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=GBK, java.library.path=E:\Java JDK\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\ffmpeg\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\GitHub_bash\Git\cmd;D:\GitHub_bash\Git LFS;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;E:\Java JDK\jdk-13.0.2\bin;D:\JS\;D:\GitHub_bash\Git\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;E:\jemy;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;%ANDROID_SDK%;E:\eclipse\SDK_Manager\platform-tools;% ANDROID_SDK_HOME%\tools;E:\Flutter\flutter\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Java JDK\jdk\bin;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;%ANDROID_SDK%;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;E:\eclipse\Sdk\Sdk\platform-tools;E:\eclipse\Sdk\Sdk\tools;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, org.gradle.native=false, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\youme, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.8, java.class.path=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\test;D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\resources\test;D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\main;D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\resources\main;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-web\2.0.2.RELEASE\b6ef0cf4d0a7c6c7e93ff524b84cd1d8f87f67d9\spring-boot-starter-web-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-actuator\2.0.2.RELEASE\bf24a7e12afcebae667819b616528e9b13574275\spring-boot-starter-actuator-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.googlecode.json-simple\json-simple\1.1.1\c9ad4a0850ab676c5c64461a05ca524cdfff59f1\json-simple-1.1.1.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.github.kevinsawicki\http-request\6.0\910c844ccd4653c9f6895dc4b7adce6372a4da03\http-request-6.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-test\2.0.2.RELEASE\d9e090412f318586e0f277e24740b79b58ef190b\spring-boot-starter-test-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-json\2.0.2.RELEASE\5edda979838ced5314b8f58a958fe9d6b4b3badd\spring-boot-starter-json-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter\2.0.2.RELEASE\1cda94f0dfcf2b065191782a54b84d2abf96391\spring-boot-starter-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-tomcat\2.0.2.RELEASE\cedbfb18762e1c220007c768bfc5b773f5b30f8a\spring-boot-starter-tomcat-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.hibernate.validator\hibernate-validator\6.0.9.Final\b149e4cce82379f11f6129eb3187ca8ae5404005\hibernate-validator-6.0.9.Final.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-webmvc\5.0.6.RELEASE\1361c5d1cf46665ee01de5dc1ca447c3be174c19\spring-webmvc-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-web\5.0.6.RELEASE\89e89de3025165998118590613aedc6df8d64af6\spring-web-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-actuator-autoconfigure\2.0.2.RELEASE\5165c5f431baf565bf9b07ce1956b71706fa37d\spring-boot-actuator-autoconfigure-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-core\1.0.4\469c27eee20e79bdfd31ea93adfe43f95bfa4887\micrometer-core-1.0.4.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-test-autoconfigure\2.0.2.RELEASE\4993bdd96a4c02bc5b5703862d99ef4c563f25d0\spring-boot-test-autoconfigure-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-test\2.0.2.RELEASE\fc85812e6543312a3b0ea9fbbdfd4a51183380a3\spring-boot-test-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.jayway.jsonpath\json-path\2.4.0\765a4401ceb2dc8d40553c2075eb80a8fa35c2ae\json-path-2.4.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.assertj\assertj-core\3.9.1\c5ce126b15f28d56cd8f960c1a6a058b9c9aea87\assertj-core-3.9.1.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\2.15.0\b84bfbbc29cd22c9529409627af6ea2897f4fa85\mockito-core-2.15.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.skyscreamer\jsonassert\1.5.0\6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3\jsonassert-1.5.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-test\5.0.6.RELEASE\dbc99b288774b2e07d94bc14fe38d556bc3ed34a\spring-test-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\2.0.2.RELEASE\f4b25e753e4955337a138d8b1550236b5efe5b3b\spring-boot-autoconfigure-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-actuator\2.0.2.RELEASE\b849b4a60d01e6a17d563314d67bae4697b6ed04\spring-boot-actuator-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\2.0.2.RELEASE\15012cf02e9f77938244e554f0598535fdd1cb38\spring-boot-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\5.0.6.RELEASE\8b73b742ef0ddce04f0f1068f305de240b00ce0d\spring-context-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\5.0.6.RELEASE\dec57ae5e6f0dfd4c6cfc199aa13ed268c3e1a65\spring-expression-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\5.0.6.RELEASE\74078df698992054c1c1a8f705763a6c7b4b914c\spring-aop-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\5.0.6.RELEASE\d609b83cd8a71650a70778cf8d02c9a05b9161fe\spring-beans-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\5.0.6.RELEASE\984a52455b1be596b7f1a29f62d21d2f483eb764\spring-core-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.xmlunit\xmlunit-core\2.5.1\4ffdb346572a7356f7521cd3119ce5287d2e339d\xmlunit-core-2.5.1.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-logging\2.0.2.RELEASE\b56d7d1931792d6e58dbd41f956912359ba85238\spring-boot-starter-logging-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.3.2\934c04d3cfef185a8008e7bf34331b79730a9d43\javax.annotation-api-1.3.2.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.19\2d998d3d674b172a588e54ab619854d073f555b5\snakeyaml-1.19.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.9.5\23e37f085279ba316c0df923513b81609e1d1f6\jackson-datatype-jdk8-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.9.5\d1f0d11e816bc04e222a261106ca138801841c2d\jackson-datatype-jsr310-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.module\jackson-module-parameter-names\2.9.5\f824c60751ffb7bfc3a0d30dfe0e42317d8e67f5\jackson-module-parameter-names-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.9.5\3490508379d065fe3fcb80042b62f630f7588606\jackson-databind-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-websocket\8.5.31\6564e716b89de5eaa0dd234ae7989576503ddf3\tomcat-embed-websocket-8.5.31.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-core\8.5.31\f5adf7ed8c34aa005b22b6a2dc7b6796e10e9c79\tomcat-embed-core-8.5.31.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-el\8.5.31\3a536e1ac71b82627c3a7408eb38fa0704cb9034\tomcat-embed-el-8.5.31.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\javax.validation\validation-api\2.0.1.Final\cb855558e6271b1b32e716d24cb85c7f583ce09e\validation-api-2.0.1.Final.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.4\3d5f48f10bbe4eb7bd862f10c0583be2e0053c6\classmate-1.3.4.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.hdrhistogram\HdrHistogram\2.1.10\9e1ac84eed220281841b75e72fb9de5a297fbf04\HdrHistogram-2.1.10.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.latencyutils\LatencyUtils\2.0.3\769c0b82cb2421c8256300e907298a9410a2a3d3\LatencyUtils-2.0.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\net.minidev\json-smart\2.3\7396407491352ce4fa30de92efb158adb76b5b\json-smart-2.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-to-slf4j\2.10.0\f7e631ccf49cfc0aefa4a2a728da7d374c05bd3c\log4j-to-slf4j-2.10.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.slf4j\jul-to-slf4j\1.7.25\af5364cd6679bfffb114f0dec8a157aaa283b76\jul-to-slf4j-1.7.25.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.7.11\f02857a4e2c66ccbe7aaad6100a0a6c461bce9b3\byte-buddy-1.7.11.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.7.11\b425a8933ca07edd03c6dbc8bc3b595fba9780de\byte-buddy-agent-1.7.11.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.6\639033469776fd37c08358c6b92a4761feb2af4b\objenesis-2.6.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.vaadin.external.google\android-json\0.0.20131108.vaadin1\fa26d351fe62a6a17f5cda1287c1c6110dec413f\android-json-0.0.20131108.vaadin1.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jcl\5.0.6.RELEASE\295ee4e8657e9c1fd327735c01d5fbce339cc44d\spring-jcl-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.9.0\7c10d545325e3a6e72e06381afe469fd40eb701\jackson-annotations-2.9.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.9.5\a22ac51016944b06fd9ffbc9541c6e7ce5eea117\jackson-core-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\net.minidev\accessors-smart\1.2\c592b500269bfde36096641b01238a8350f8aa31\accessors-smart-1.2.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.10.0\fec5797a55b786184a537abd39c3fa1449d752d6\log4j-api-2.10.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\5.0.4\da08b8cce7bbf903602a25a3a163ae252435795\asm-5.0.4.jar, user.name=youme, java.vm.specification.version=1.8, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1', java.home=E:\Java JDK\jdk\jre, sun.arch.data.model=64, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_241, java.ext.dirs=E:\Java JDK\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=E:\Java JDK\jdk\jre\lib\resources.jar;E:\Java JDK\jdk\jre\lib\rt.jar;E:\Java JDK\jdk\jre\lib\sunrsasign.jar;E:\Java JDK\jdk\jre\lib\jsse.jar;E:\Java JDK\jdk\jre\lib\jce.jar;E:\Java JDK\jdk\jre\lib\charsets.jar;E:\Java JDK\jdk\jre\lib\jfr.jar;E:\Java JDK\jdk\jre\classes, java.vendor=Oracle Corporation, org.gradle.test.worker=1, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}}, SystemEnvironmentPropertySource@2015823264 {name='systemEnvironment', properties={USERDOMAIN_ROAMINGPROFILE=DESKTOP-G3BEKRP, PROCESSOR_LEVEL=6, install_path=C:\Users\youme\AppData\Roaming\快压, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\VisualSVN Server\PowerShellModules, __INTELLIJ_COMMAND_HISTFILE__=C:\Users\youme\.AndroidStudio3.5\config\terminal\history\history-169, SystemDrive=C:, DIRNAME=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\, USERNAME=youme, CMD_LINE_ARGS=build, ProgramFiles(x86)=C:\Program Files (x86), VISUALSVN_SERVER=C:\Program Files\VisualSVN Server\, FPS_BROWSER_USER_PROFILE_STRING=Default, APP_HOME=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, GIT_LFS_PATH=D:\GitHub_bash\Git LFS, ProgramW6432=C:\Program Files, HOMEPATH=\Users\youme, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, FLUTTER_STORAGE_BASE_URL=PUB_HOSTED_URL=https://pub.flutter-io.cn;FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn, windir=C:\Windows, =::=::\, _SKIP=2, LOCALAPPDATA=C:\Users\youme\AppData\Local, USERDOMAIN=DESKTOP-G3BEKRP, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-G3BEKRP, JAVA_HOME=E:\Java JDK\jdk, PROMPT=$P$G, VS120COMNTOOLS=E:\VS2013_5\Common7\Tools\, OneDrive=C:\Users\youme\OneDrive, APPDATA=C:\Users\youme\AppData\Roaming, JAVA_EXE=E:\Java JDK\jdk/bin/java.exe, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\ffmpeg\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\GitHub_bash\Git\cmd;D:\GitHub_bash\Git LFS;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;E:\Java JDK\jdk-13.0.2\bin;D:\JS\;D:\GitHub_bash\Git\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;E:\jemy;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;%ANDROID_SDK%;E:\eclipse\SDK_Manager\platform-tools;% ANDROID_SDK_HOME%\tools;E:\Flutter\flutter\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Java JDK\jdk\bin;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;%ANDROID_SDK%;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;E:\eclipse\Sdk\Sdk\platform-tools;E:\eclipse\Sdk\Sdk\tools;, Android_SDK_HOME=E:\eclipse\SDK_Manager, OS=Windows_NT, COMPUTERNAME=DESKTOP-G3BEKRP, gitlfs=D:\GitHub_bash\Git LFS, PROCESSOR_REVISION=3c03, CLASSPATH=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\\gradle\wrapper\gradle-wrapper.jar, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APP_BASE_NAME=gradlew, TERMINAL_EMULATOR=JetBrains-JediTerm, =D:=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete, SystemRoot=C:\Windows, TEMP=C:\Users\youme\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\youme, TMP=C:\Users\youme\AppData\Local\Temp, VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=4}}]
+19:28:23.604 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [hello/] to resources [URL [file:/D:/video_rtmp_live/live-server-java-demo/live-server-java-demo/complete/build/classes/java/test/hello/], URL [file:/D:/video_rtmp_live/live-server-java-demo/live-server-java-demo/complete/build/classes/java/main/hello/]]
+19:28:23.606 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\test\hello]
+19:28:23.606 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\test\hello] for files matching pattern [D:/video_rtmp_live/live-server-java-demo/live-server-java-demo/complete/build/classes/java/test/hello/*.class]
+19:28:23.612 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\main\hello]
+19:28:23.612 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\main\hello] for files matching pattern [D:/video_rtmp_live/live-server-java-demo/live-server-java-demo/complete/build/classes/java/main/hello/*.class]
+19:28:23.613 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:hello/*.class] to resources [file [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\test\hello\HelloControllerIT.class], file [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\test\hello\HelloControllerTest.class], file [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\main\hello\Application.class], file [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\main\hello\HelloController.class], file [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\main\hello\YMMessage.class]]
+19:28:23.663 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\main\hello\Application.class]
+19:28:23.671 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.Application for test class hello.HelloControllerIT
+19:28:23.791 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.HelloControllerIT]: using defaults.
+19:28:23.792 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+19:28:23.871 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+19:28:23.872 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+19:28:23.872 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3aa55ee3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@46c41ceb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@35fb75f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@f0f2d98, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f4d38dc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@79085c9a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@17b2f2be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@61a76e3d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@175a210d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2c8d53f0]
+19:28:23.875 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.HelloControllerIT]
+19:28:23.875 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.HelloControllerIT]
+19:28:23.876 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.HelloControllerIT]
+19:28:23.876 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.HelloControllerIT]
+19:28:23.880 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2711675d testClass = HelloControllerIT, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7f68c4b1 testClass = HelloControllerIT, locations = '{}', classes = '{class hello.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@28267fb5, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5aa84de4, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@74a00ea4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@196c90c8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+19:28:23.881 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.HelloControllerIT]
+19:28:23.881 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.HelloControllerIT]
+19:28:23.886 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@2711675d testClass = HelloControllerIT, testInstance = hello.HelloControllerIT@a063126, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7f68c4b1 testClass = HelloControllerIT, locations = '{}', classes = '{class hello.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@28267fb5, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5aa84de4, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@74a00ea4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@196c90c8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false]]].
+19:28:23.902 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+19:28:23.902 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+19:28:23.903 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [MapPropertySource@1478532182 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=E:\Java JDK\jdk\jre\bin, java.vm.version=25.241-b07, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, sun.java.launcher=SUN_STANDARD, user.country=CN, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete, java.runtime.version=1.8.0_241-b07, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=E:\Java JDK\jdk\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\youme\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=GBK, java.library.path=E:\Java JDK\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\ffmpeg\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\GitHub_bash\Git\cmd;D:\GitHub_bash\Git LFS;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;E:\Java JDK\jdk-13.0.2\bin;D:\JS\;D:\GitHub_bash\Git\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;E:\jemy;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;%ANDROID_SDK%;E:\eclipse\SDK_Manager\platform-tools;% ANDROID_SDK_HOME%\tools;E:\Flutter\flutter\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Java JDK\jdk\bin;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;%ANDROID_SDK%;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;E:\eclipse\Sdk\Sdk\platform-tools;E:\eclipse\Sdk\Sdk\tools;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, org.gradle.native=false, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\youme, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.8, java.class.path=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\test;D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\resources\test;D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\classes\java\main;D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\build\resources\main;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-web\2.0.2.RELEASE\b6ef0cf4d0a7c6c7e93ff524b84cd1d8f87f67d9\spring-boot-starter-web-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-actuator\2.0.2.RELEASE\bf24a7e12afcebae667819b616528e9b13574275\spring-boot-starter-actuator-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.googlecode.json-simple\json-simple\1.1.1\c9ad4a0850ab676c5c64461a05ca524cdfff59f1\json-simple-1.1.1.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.github.kevinsawicki\http-request\6.0\910c844ccd4653c9f6895dc4b7adce6372a4da03\http-request-6.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-test\2.0.2.RELEASE\d9e090412f318586e0f277e24740b79b58ef190b\spring-boot-starter-test-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-json\2.0.2.RELEASE\5edda979838ced5314b8f58a958fe9d6b4b3badd\spring-boot-starter-json-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter\2.0.2.RELEASE\1cda94f0dfcf2b065191782a54b84d2abf96391\spring-boot-starter-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-tomcat\2.0.2.RELEASE\cedbfb18762e1c220007c768bfc5b773f5b30f8a\spring-boot-starter-tomcat-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.hibernate.validator\hibernate-validator\6.0.9.Final\b149e4cce82379f11f6129eb3187ca8ae5404005\hibernate-validator-6.0.9.Final.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-webmvc\5.0.6.RELEASE\1361c5d1cf46665ee01de5dc1ca447c3be174c19\spring-webmvc-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-web\5.0.6.RELEASE\89e89de3025165998118590613aedc6df8d64af6\spring-web-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-actuator-autoconfigure\2.0.2.RELEASE\5165c5f431baf565bf9b07ce1956b71706fa37d\spring-boot-actuator-autoconfigure-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-core\1.0.4\469c27eee20e79bdfd31ea93adfe43f95bfa4887\micrometer-core-1.0.4.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-test-autoconfigure\2.0.2.RELEASE\4993bdd96a4c02bc5b5703862d99ef4c563f25d0\spring-boot-test-autoconfigure-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-test\2.0.2.RELEASE\fc85812e6543312a3b0ea9fbbdfd4a51183380a3\spring-boot-test-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.jayway.jsonpath\json-path\2.4.0\765a4401ceb2dc8d40553c2075eb80a8fa35c2ae\json-path-2.4.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.assertj\assertj-core\3.9.1\c5ce126b15f28d56cd8f960c1a6a058b9c9aea87\assertj-core-3.9.1.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\2.15.0\b84bfbbc29cd22c9529409627af6ea2897f4fa85\mockito-core-2.15.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.skyscreamer\jsonassert\1.5.0\6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3\jsonassert-1.5.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-test\5.0.6.RELEASE\dbc99b288774b2e07d94bc14fe38d556bc3ed34a\spring-test-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\2.0.2.RELEASE\f4b25e753e4955337a138d8b1550236b5efe5b3b\spring-boot-autoconfigure-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-actuator\2.0.2.RELEASE\b849b4a60d01e6a17d563314d67bae4697b6ed04\spring-boot-actuator-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\2.0.2.RELEASE\15012cf02e9f77938244e554f0598535fdd1cb38\spring-boot-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\5.0.6.RELEASE\8b73b742ef0ddce04f0f1068f305de240b00ce0d\spring-context-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\5.0.6.RELEASE\dec57ae5e6f0dfd4c6cfc199aa13ed268c3e1a65\spring-expression-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\5.0.6.RELEASE\74078df698992054c1c1a8f705763a6c7b4b914c\spring-aop-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\5.0.6.RELEASE\d609b83cd8a71650a70778cf8d02c9a05b9161fe\spring-beans-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\5.0.6.RELEASE\984a52455b1be596b7f1a29f62d21d2f483eb764\spring-core-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.xmlunit\xmlunit-core\2.5.1\4ffdb346572a7356f7521cd3119ce5287d2e339d\xmlunit-core-2.5.1.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-logging\2.0.2.RELEASE\b56d7d1931792d6e58dbd41f956912359ba85238\spring-boot-starter-logging-2.0.2.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.3.2\934c04d3cfef185a8008e7bf34331b79730a9d43\javax.annotation-api-1.3.2.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.19\2d998d3d674b172a588e54ab619854d073f555b5\snakeyaml-1.19.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.9.5\23e37f085279ba316c0df923513b81609e1d1f6\jackson-datatype-jdk8-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.9.5\d1f0d11e816bc04e222a261106ca138801841c2d\jackson-datatype-jsr310-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.module\jackson-module-parameter-names\2.9.5\f824c60751ffb7bfc3a0d30dfe0e42317d8e67f5\jackson-module-parameter-names-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.9.5\3490508379d065fe3fcb80042b62f630f7588606\jackson-databind-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-websocket\8.5.31\6564e716b89de5eaa0dd234ae7989576503ddf3\tomcat-embed-websocket-8.5.31.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-core\8.5.31\f5adf7ed8c34aa005b22b6a2dc7b6796e10e9c79\tomcat-embed-core-8.5.31.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-el\8.5.31\3a536e1ac71b82627c3a7408eb38fa0704cb9034\tomcat-embed-el-8.5.31.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\javax.validation\validation-api\2.0.1.Final\cb855558e6271b1b32e716d24cb85c7f583ce09e\validation-api-2.0.1.Final.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.4\3d5f48f10bbe4eb7bd862f10c0583be2e0053c6\classmate-1.3.4.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.hdrhistogram\HdrHistogram\2.1.10\9e1ac84eed220281841b75e72fb9de5a297fbf04\HdrHistogram-2.1.10.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.latencyutils\LatencyUtils\2.0.3\769c0b82cb2421c8256300e907298a9410a2a3d3\LatencyUtils-2.0.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\net.minidev\json-smart\2.3\7396407491352ce4fa30de92efb158adb76b5b\json-smart-2.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-to-slf4j\2.10.0\f7e631ccf49cfc0aefa4a2a728da7d374c05bd3c\log4j-to-slf4j-2.10.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.slf4j\jul-to-slf4j\1.7.25\af5364cd6679bfffb114f0dec8a157aaa283b76\jul-to-slf4j-1.7.25.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.7.11\f02857a4e2c66ccbe7aaad6100a0a6c461bce9b3\byte-buddy-1.7.11.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.7.11\b425a8933ca07edd03c6dbc8bc3b595fba9780de\byte-buddy-agent-1.7.11.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.6\639033469776fd37c08358c6b92a4761feb2af4b\objenesis-2.6.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.vaadin.external.google\android-json\0.0.20131108.vaadin1\fa26d351fe62a6a17f5cda1287c1c6110dec413f\android-json-0.0.20131108.vaadin1.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jcl\5.0.6.RELEASE\295ee4e8657e9c1fd327735c01d5fbce339cc44d\spring-jcl-5.0.6.RELEASE.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.9.0\7c10d545325e3a6e72e06381afe469fd40eb701\jackson-annotations-2.9.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.9.5\a22ac51016944b06fd9ffbc9541c6e7ce5eea117\jackson-core-2.9.5.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\net.minidev\accessors-smart\1.2\c592b500269bfde36096641b01238a8350f8aa31\accessors-smart-1.2.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.10.0\fec5797a55b786184a537abd39c3fa1449d752d6\log4j-api-2.10.0.jar;C:\Users\youme\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\5.0.4\da08b8cce7bbf903602a25a3a163ae252435795\asm-5.0.4.jar, user.name=youme, java.vm.specification.version=1.8, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1', java.home=E:\Java JDK\jdk\jre, sun.arch.data.model=64, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_241, java.ext.dirs=E:\Java JDK\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=E:\Java JDK\jdk\jre\lib\resources.jar;E:\Java JDK\jdk\jre\lib\rt.jar;E:\Java JDK\jdk\jre\lib\sunrsasign.jar;E:\Java JDK\jdk\jre\lib\jsse.jar;E:\Java JDK\jdk\jre\lib\jce.jar;E:\Java JDK\jdk\jre\lib\charsets.jar;E:\Java JDK\jdk\jre\lib\jfr.jar;E:\Java JDK\jdk\jre\classes, java.vendor=Oracle Corporation, org.gradle.test.worker=1, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}}, SystemEnvironmentPropertySource@89255015 {name='systemEnvironment', properties={USERDOMAIN_ROAMINGPROFILE=DESKTOP-G3BEKRP, PROCESSOR_LEVEL=6, install_path=C:\Users\youme\AppData\Roaming\快压, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\VisualSVN Server\PowerShellModules, __INTELLIJ_COMMAND_HISTFILE__=C:\Users\youme\.AndroidStudio3.5\config\terminal\history\history-169, SystemDrive=C:, DIRNAME=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\, USERNAME=youme, CMD_LINE_ARGS=build, ProgramFiles(x86)=C:\Program Files (x86), VISUALSVN_SERVER=C:\Program Files\VisualSVN Server\, FPS_BROWSER_USER_PROFILE_STRING=Default, APP_HOME=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, GIT_LFS_PATH=D:\GitHub_bash\Git LFS, ProgramW6432=C:\Program Files, HOMEPATH=\Users\youme, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, FLUTTER_STORAGE_BASE_URL=PUB_HOSTED_URL=https://pub.flutter-io.cn;FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn, windir=C:\Windows, =::=::\, _SKIP=2, LOCALAPPDATA=C:\Users\youme\AppData\Local, USERDOMAIN=DESKTOP-G3BEKRP, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-G3BEKRP, JAVA_HOME=E:\Java JDK\jdk, PROMPT=$P$G, VS120COMNTOOLS=E:\VS2013_5\Common7\Tools\, OneDrive=C:\Users\youme\OneDrive, APPDATA=C:\Users\youme\AppData\Roaming, JAVA_EXE=E:\Java JDK\jdk/bin/java.exe, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\ffmpeg\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\GitHub_bash\Git\cmd;D:\GitHub_bash\Git LFS;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;E:\Java JDK\jdk-13.0.2\bin;D:\JS\;D:\GitHub_bash\Git\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;E:\jemy;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;%ANDROID_SDK%;E:\eclipse\SDK_Manager\platform-tools;% ANDROID_SDK_HOME%\tools;E:\Flutter\flutter\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Java JDK\jdk\bin;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;%ANDROID_SDK%;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;E:\eclipse\Sdk\Sdk\platform-tools;E:\eclipse\Sdk\Sdk\tools;, Android_SDK_HOME=E:\eclipse\SDK_Manager, OS=Windows_NT, COMPUTERNAME=DESKTOP-G3BEKRP, gitlfs=D:\GitHub_bash\Git LFS, PROCESSOR_REVISION=3c03, CLASSPATH=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete\\gradle\wrapper\gradle-wrapper.jar, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APP_BASE_NAME=gradlew, TERMINAL_EMULATOR=JetBrains-JediTerm, =D:=D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete, SystemRoot=C:\Windows, TEMP=C:\Users\youme\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\youme, TMP=C:\Users\youme\AppData\Local\Temp, VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=4}}]
+19:28:23.905 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+19:28:23.905 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'Inlined Test Properties' with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.2.RELEASE)
+
+2020-07-03 19:28:24.410  INFO 13972 --- [    Test worker] hello.HelloControllerIT                  : Starting HelloControllerIT on DESKTOP-G3BEKRP with PID 13972 (started by youme in D:\video_rtmp_live\live-server-java-demo\live-server-java-demo\complete)
+2020-07-03 19:28:24.411  INFO 13972 --- [    Test worker] hello.HelloControllerIT                  : No active profile set, falling back to default profiles: default
+2020-07-03 19:28:24.480  INFO 13972 --- [    Test worker] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@74ed9ce2: startup date [Fri Jul 03 19:28:24 CST 2020]; root of context hierarchy
+2020-07-03 19:28:26.838  INFO 13972 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-07-03 19:28:26.864  INFO 13972 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-03 19:28:26.865  INFO 13972 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-07-03 19:28:26.876  INFO 13972 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Java JDK\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\ffmpeg\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\GitHub_bash\Git\cmd;D:\GitHub_bash\Git LFS;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;E:\Java JDK\jdk-13.0.2\bin;D:\JS\;D:\GitHub_bash\Git\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;E:\jemy;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;%ANDROID_SDK%;E:\eclipse\SDK_Manager\platform-tools;% ANDROID_SDK_HOME%\tools;E:\Flutter\flutter\bin;C:\Users\youme\AppData\Local\Microsoft\WindowsApps;E:\Java JDK\jdk\bin;E:\Visual Code\Microsoft VS Code\bin;C:\Users\youme\AppData\Roaming\npm;%ANDROID_SDK%;C:\Users\youme\AppData\Local\Android\Sdk\platform-tools;C:\Users\youme\AppData\Local\Android\Sdk\tools;E:\eclipse\Sdk\Sdk\platform-tools;E:\eclipse\Sdk\Sdk\tools;;.]
+2020-07-03 19:28:27.119  INFO 13972 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-03 19:28:27.119  INFO 13972 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2642 ms
+2020-07-03 19:28:27.965  INFO 13972 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-03 19:28:27.969  INFO 13972 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-03 19:28:27.969  INFO 13972 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-03 19:28:27.970  INFO 13972 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-03 19:28:27.970  INFO 13972 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-03 19:28:27.970  INFO 13972 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2020-07-03 19:28:27.971  INFO 13972 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-07-03 19:28:28.124  INFO 13972 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-03 19:28:28.426  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@74ed9ce2: startup date [Fri Jul 03 19:28:24 CST 2020]; root of context hierarchy
+2020-07-03 19:28:28.510  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/]}&quot; onto public java.lang.String hello.HelloController.index()
+2020-07-03 19:28:28.512  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/recvmsg],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;hello.YMMessage&gt; hello.HelloController.update(hello.YMMessage)
+2020-07-03 19:28:28.512  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/getLivePlayAddress/{userid}]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; hello.HelloController.getPlaybackAddress(java.lang.String)
+2020-07-03 19:28:28.512  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/getPublishAddress/{userid}],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; hello.HelloController.getPublishAddress(java.lang.String)
+2020-07-03 19:28:28.513  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/getPublishHistory/{userid}/{starttime}/{endtime}]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; hello.HelloController.getPublishHistory(java.lang.String,java.lang.Long,java.lang.Long)
+2020-07-03 19:28:28.513  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/sendmsg],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; hello.HelloController.sendMessage()
+2020-07-03 19:28:28.513  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/sendByteMsg],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; hello.HelloController.sendByteMessage()
+2020-07-03 19:28:28.513  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/getPlaybackURL/{userid}/{starttime}/{endtime}],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; hello.HelloController.savePublishFile(java.lang.String,java.lang.Long,java.lang.Long)
+2020-07-03 19:28:28.516  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-03 19:28:28.516  INFO 13972 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-03 19:28:28.548  INFO 13972 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-03 19:28:28.548  INFO 13972 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-03 19:28:28.867  INFO 13972 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-03 19:28:28.877  INFO 13972 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2020-07-03 19:28:28.879  INFO 13972 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2020-07-03 19:28:28.880  INFO 13972 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto protected java.util.Map&lt;java.lang.String, java.util.Map&lt;java.lang.String, org.springframework.boot.actuate.endpoint.web.Link&gt;&gt; org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-03 19:28:29.005  INFO 13972 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51973 (http) with context path ''
+2020-07-03 19:28:29.010  INFO 13972 --- [    Test worker] hello.HelloControllerIT                  : Started HelloControllerIT in 5.103 seconds (JVM running for 6.994)
+Let's inspect the beans provided by Spring Boot:
+application
+auditEventRepository
+auditEventsEndpoint
+auditListener
+basicErrorController
+beanNameHandlerMapping
+beanNameViewResolver
+beansEndpoint
+characterEncodingFilter
+classLoaderMetrics
+commandLineRunner
+conditionsReportEndpoint
+configurationPropertiesReportEndpoint
+contextCapturingServletTomcatCustomizer
+controllerEndpointDiscoverer
+controllerEndpointHandlerMapping
+controllerExposeExcludePropertyEndpointFilter
+conventionErrorViewResolver
+createHealthStatusHttpMapper
+defaultServletHandlerMapping
+defaultValidator
+defaultViewResolver
+diskSpaceHealthIndicator
+diskSpaceHealthIndicatorProperties
+dispatcherServlet
+dispatcherServletMappingDescriptionProvider
+dispatcherServletRegistration
+dumpEndpoint
+endpointCachingOperationInvokerAdvisor
+endpointMediaTypes
+endpointOperationParameterMapper
+envInfoContributor
+environmentEndpoint
+environmentEndpointWebExtension
+error
+errorAttributes
+errorPageCustomizer
+errorPageRegistrarBeanPostProcessor
+faviconHandlerMapping
+faviconRequestHandler
+fileDescriptorMetrics
+filterMappingDescriptionProvider
+handlerExceptionResolver
+healthAggregator
+healthEndpoint
+healthEndpointWebExtension
+healthWebEndpointResponseMapper
+heapDumpWebEndpoint
+helloController
+hiddenHttpMethodFilter
+httpExchangeTracer
+httpPutFormContentFilter
+httpRequestHandlerAdapter
+httpTraceEndpoint
+httpTraceFilter
+infoEndpoint
+jacksonCodecCustomizer
+jacksonObjectMapper
+jacksonObjectMapperBuilder
+jmxAnnotationEndpointDiscoverer
+jmxIncludeExcludePropertyEndpointFilter
+jsonComponentModule
+jvmGcMetrics
+jvmMemoryMetrics
+jvmThreadMetrics
+localeCharsetMappingsCustomizer
+logbackMetrics
+loggersEndpoint
+mainDispatcherServletPathProvider
+management.endpoint.configprops-org.springframework.boot.actuate.autoconfigure.context.properties.ConfigurationPropertiesReportEndpointProperties
+management.endpoint.env-org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointProperties
+management.endpoint.health-org.springframework.boot.actuate.autoconfigure.health.HealthEndpointProperties
+management.endpoint.logfile-org.springframework.boot.actuate.autoconfigure.logging.LogFileWebEndpointProperties
+management.endpoints.jmx-org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointProperties
+management.endpoints.web-org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties
+management.endpoints.web.cors-org.springframework.boot.actuate.autoconfigure.endpoint.web.CorsEndpointProperties
+management.health.status-org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorProperties
+management.info-org.springframework.boot.actuate.autoconfigure.info.InfoContributorProperties
+management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties
+management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties
+management.server-org.springframework.boot.actuate.autoconfigure.web.server.ManagementServerProperties
+management.trace.http-org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceProperties
+managementServletContext
+mappingJackson2HttpMessageConverter
+mappingsEndpoint
+messageConverters
+meterRegistryPostProcessor
+methodValidationPostProcessor
+metricsEndpoint
+metricsRestTemplateCustomizer
+metricsWebClientUriTagFilter
+micrometerClock
+multipartConfigElement
+multipartResolver
+mvcContentNegotiationManager
+mvcConversionService
+mvcHandlerMappingIntrospector
+mvcPathMatcher
+mvcResourceUrlProvider
+mvcUriComponentsContributor
+mvcUrlPathHelper
+mvcValidator
+mvcViewResolver
+org.springframework.boot.actuate.autoconfigure.audit.AuditAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.audit.AuditAutoConfiguration$AuditEventRepositoryConfiguration
+org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.beans.BeansEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.condition.ConditionsReportEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.context.ShutdownEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.context.properties.ConfigurationPropertiesReportEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.elasticsearch.ElasticsearchHealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.EndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration$WebEndpointServletConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.web.servlet.WebMvcEndpointManagementContextConfiguration
+org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthEndpointWebExtensionConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthEndpointWebExtensionConfiguration$ServletWebHealthConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.info.InfoContributorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.info.InfoEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.logging.LogFileWebEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.logging.LoggersEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.management.HeapDumpWebEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.management.ThreadDumpEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.CompositeMeterRegistryAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration$JvmMeterBindersConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration$MeterBindersConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.MetricsEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.web.client.RestTemplateMetricsAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.web.servlet.WebMvcMetricsAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.web.tomcat.TomcatMetricsAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.mongo.MongoHealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.redis.RedisHealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.scheduling.ScheduledTasksEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.system.DiskSpaceHealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceAutoConfiguration$ServletTraceFilterConfiguration
+org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.web.mappings.MappingsEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.web.mappings.MappingsEndpointAutoConfiguration$ServletWebConfiguration
+org.springframework.boot.actuate.autoconfigure.web.mappings.MappingsEndpointAutoConfiguration$ServletWebConfiguration$SpringMvcConfiguration
+org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration
+org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$EnableSameManagementContextConfiguration
+org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementContextAutoConfiguration
+org.springframework.boot.autoconfigure.AutoConfigurationPackages
+org.springframework.boot.autoconfigure.condition.BeanTypeRegistry
+org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration
+org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration
+org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor
+org.springframework.boot.test.web.client.TestRestTemplate
+org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer$TestRestTemplateRegistrar
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalRequiredAnnotationProcessor
+org.springframework.context.event.internalEventListenerFactory
+org.springframework.context.event.internalEventListenerProcessor
+parameterNamesModule
+pathMappedEndpoints
+preserveErrorControllerTargetClassPostProcessor
+processorMetrics
+propertiesMeterFilter
+propertySourcesPlaceholderConfigurer
+requestContextFilter
+requestMappingHandlerAdapter
+requestMappingHandlerMapping
+resourceHandlerMapping
+restTemplateBuilder
+restTemplateTagConfigurer
+scheduledTasksEndpoint
+server-org.springframework.boot.autoconfigure.web.ServerProperties
+servletEndpointDiscoverer
+servletEndpointRegistrar
+servletExposeExcludePropertyEndpointFilter
+servletMappingDescriptionProvider
+servletWebChildContextFactory
+servletWebServerFactoryCustomizer
+simpleConfig
+simpleControllerHandlerAdapter
+simpleMeterRegistry
+spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties
+spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties
+spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties
+spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+standardJacksonObjectMapperBuilderCustomizer
+stringHttpMessageConverter
+tomcatMetrics
+tomcatServletWebServerFactory
+tomcatServletWebServerFactoryCustomizer
+tomcatWebServerFactoryCustomizer
+traceRepository
+uptimeMetrics
+viewControllerHandlerMapping
+viewResolver
+webEndpointDiscoverer
+webEndpointPathMapper
+webEndpointServletHandlerMapping
+webExposeExcludePropertyEndpointFilter
+webMvcMetricsFilter
+webMvcTagsProvider
+webServerFactoryCustomizerBeanPostProcessor
+websocketContainerCustomizer
+welcomePageHandlerMapping
+2020-07-03 19:28:29.995  INFO 13972 --- [-auto-1-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-07-03 19:28:29.998  INFO 13972 --- [-auto-1-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-07-03 19:28:30.026  INFO 13972 --- [-auto-1-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.6</a> at 2020-7-3 19:28:32</p>
+</div>
+</div>
+</body>
+</html>
